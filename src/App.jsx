@@ -1,7 +1,6 @@
 import './App.css'
 import { useState, useEffect } from 'react'
 import axios from "axios";
-import { response } from 'express';
 
 function App() {
   const [userData, setUserData] = useState(null);
@@ -15,8 +14,11 @@ function App() {
       }
   
       axios.request(options).then((response) => {
+
         console.log(response.data);
         setUserData(response.data);
+
+        console.log("Fetch api success.")
       }).catch((error) => {
         console.log(error)
       })
