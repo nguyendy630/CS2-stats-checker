@@ -12,7 +12,6 @@ export default function FetchData(props) {
     const [userData, setUserData] = useState(null);
     let steamid = props.steamid;
 
-    // @TODO: Remove https://steamcommunity.com/profiles/ from the steamid
     function validateSteamID(steamid) {
         if (typeof steamid == "undefined" || steamid == "") {
             steamid = "76561198961634260";
