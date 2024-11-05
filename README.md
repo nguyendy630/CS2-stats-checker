@@ -6,4 +6,3 @@ Fetch player profile data from Counter-Strike 2 servers.
 View detailed match statistics (kills, deaths, K/D ratio, MVPs, etc.).
 Display overall performance trends and rankings.
 User-friendly interface for querying player stats by Steam ID or username.
-Historical performance graphs to analyze gameplay over time.
